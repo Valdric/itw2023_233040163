@@ -1,0 +1,39 @@
+body { background-image: url(background.png);
+    background-size: cover;
+    background-color: aqua;
+    font-family: georgia;}
+    h1 {font-family: Comic Sans MS;
+    font-size: 60px;
+    color:darkblue;
+    text-align: center;}
+    h4 {text-align: center;
+ }
+ h3 {
+    text-align: center;
+}
+    .a1 {
+        color: orangered;
+        font-variant-caps: petite-caps;
+    }
+    
+    .a1:hover {
+        color: red;
+    }
+    
+    .a2 {
+        font-weight: bold;
+        color: blue;
+    }
+    
+    .a2:hover {
+        color: white;
+        background-color: blue;
+    }
+    .first {
+        color: orange;
+        text-align: center;
+    }
+    .second {
+        text-align: right;
+    }
+    
