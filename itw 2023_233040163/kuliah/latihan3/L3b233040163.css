@@ -6,4 +6,23 @@ body {background-color: aqua;
     text-align: center;}
     h4 {text-align: right;
     font-style: italic;}
+    .a1 {
+        color: white;
+        font-variant-caps: petite-caps;
+    }
+    
+    .a1:hover {
+        color: red;
+    }
+    
+    .a2 {
+        font-weight: bold;
+        color: blue;
+    }
+    
+    .a2:hover {
+        color: white;
+        background-color: blue;
+    }
+    
     p {text-align: center;}
