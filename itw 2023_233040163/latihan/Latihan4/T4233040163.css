@@ -127,7 +127,7 @@ table {
 body {
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
-  background-image: url(background.jpg);
+  background-image: url(img/background.jpg);
   color: #333;
 }
 
@@ -165,7 +165,7 @@ body {
 
 .hero {
   height: 250px;
-  background-image: url(345152.jpg);
+  background-image: url(img/345152.jpg);
   background-size: cover;
   background-position: 0 -120px;
   border-bottom: 5px solid rgb(45, 220, 45);
