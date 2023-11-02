@@ -117,6 +117,14 @@ h1 {
 .overlay:target .close{
     animation: slideDownFade .5s .5s forwards;
 }
+/* navigation */
+.next {
+    width: 57px;
+    height: 93px;
+    background-image: url(../img/610393-200.png);
+    position: absolute;
+    text-indent: -9999px;
+}
 
 /* animation */
 @keyframes zoomAndFade {
