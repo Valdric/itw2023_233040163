@@ -123,11 +123,11 @@ table {
   border-spacing: 0;
 }
 
-/* Style */
+/* style */
 body {
   font: 16px/28px arial, sans-serif;
   background-color: #eaeaea;
-  background-image: url(img/background\ m.avif);
+  background-image: url("img/background\ m.avif");
   color: #333;
 }
 
@@ -137,52 +137,48 @@ body {
   background-color: #fff;
 }
 
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
 .header .judul {
-  font-family: "Delicious Handrawn";
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
-  color: white;
-  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+  padding: 3px;
 }
 
 .header a:hover {
-  background-color: #016f2d;
-  color: rgb(45, 220, 45);
-}
-
-nav {
-  position: fixed;
-  width: 800px;
-  display: flex;
-  background-color: #016f2d;
-  justify-content: space-around;
-  padding: 10px 0;
-  height: 20px;
-  align-items: center;
-  border-bottom: 5px solid forestgreen;
-}
-
-nav ul {
-  display: flex;
-  width: 40%;
-  justify-content: space-between;
-}
-
-nav ul li a {
+  background-color: skyblue;
   color: white;
-  text-decoration: none;
 }
 
 .hero {
   height: 250px;
-  background-image: url(img/foto.jpg);
+  background-image: url("img/foto.jpg");
   background-size: cover;
-  background-position: 0 -140px;
-  border-bottom: 5px solid rgb(45, 220, 45);
+  background-position: 0 -170px;
+  border-bottom: 5px solid lightskyblue;
+  border-top: 5px solid salmon;
 }
 
 .content {
-  padding: 50px;
+  padding: 20px;
+}
+
+.content h2 {
   font-size: 28px;
   font-weight: bold;
 }
@@ -193,7 +189,7 @@ nav ul li a {
 }
 
 .content .penulis a {
-  color: forestgreen;
+  color: salmon;
   text-decoration: none;
 }
 
@@ -211,16 +207,4 @@ nav ul li a {
   color: #eaeaea;
   text-align: center;
   font-size: 12px;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-h3 {
-  font-size: 22px;
-}
-
-p {
-  text-align: justify;
 }
